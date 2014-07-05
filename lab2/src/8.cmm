@@ -1,0 +1,14 @@
+struct a{
+
+};
+struct a main()
+{
+	float j = 1.7;
+	int i;
+	struct a b;
+	int x;
+	while(0){
+
+	}
+	return j;
+}

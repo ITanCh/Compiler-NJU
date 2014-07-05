@@ -1,0 +1,15 @@
+FUNCTION	main	:
+DEC	t1	12
+a	:=	&t1	
+t6	:=	a	+	#0	
+*t6	:=	#1	
+t12	:=	a	+	#4	
+*t12	:=	#2	
+t18	:=	a	+	#8	
+t24	:=	a	+	#0	
+t29	:=	a	+	#4	
+t19	:=	*t24	+	*t29	
+*t18	:=	t19	
+t34	:=	a	+	#8	
+WRITE	*t34	
+RETURN	#0	

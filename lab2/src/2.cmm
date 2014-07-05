@@ -1,0 +1,5 @@
+int main()
+{
+	float i = 0;
+	inc(i);
+}

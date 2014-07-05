@@ -1,0 +1,35 @@
+FUNCTION	func	:
+PARAM	a1	
+PARAM	a2	
+PARAM	a3	
+PARAM	a4	
+PARAM	a5	
+t4	:=	a1	+	a2	
+t3	:=	t4	+	a3	
+t2	:=	t3	+	a4	
+t1	:=	t2	+	a5	
+RETURN	t1	
+FUNCTION	main	:
+i	:=	#0	
+j	:=	#1	
+k	:=	#2	
+g	:=	#3	
+h	:=	#4	
+DEC	t10	40
+a	:=	&t10	
+t15	:=	a	+	#20	
+*t15	:=	#5	
+t21	:=	a	+	#12	
+ARG	h	
+ARG	g	
+ARG	k	
+ARG	j	
+ARG	i	
+t22	:=	CALL	func	
+*t21	:=	t22	
+t32	:=	a	+	#12	
+WRITE	*t32	
+t34	:=	i	+	j	
+t33	:=	t34	+	k	
+WRITE	t33	
+RETURN	#0	

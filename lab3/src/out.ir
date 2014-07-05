@@ -1,0 +1,23 @@
+FUNCTION	gcd	:
+PARAM	m	
+PARAM	n	
+IF	n	!=	#0	GOTO	label2	
+RETURN	m	
+GOTO	label3	
+LABEL	label2	:	
+t9	:=	m	/	n	
+t8	:=	t9	*	n	
+t6	:=	m	-	t8	
+ARG	t6	
+ARG	n	
+t4	:=	CALL	gcd	
+RETURN	t4	
+LABEL	label3	:	
+FUNCTION	main	:
+i	:=	#35	
+j	:=	#14	
+ARG	j	
+ARG	i	
+k	:=	CALL	gcd	
+WRITE	k	
+RETURN	#0	

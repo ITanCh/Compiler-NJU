@@ -1,0 +1,29 @@
+all:
+	bison -d -v la.y
+	flex la.l
+	gcc -g la.tab.c table.c node.c -lfl -o parser
+	./parser 1.cmm
+	./parser 2.cmm
+	./parser 3.cmm
+	./parser 4.cmm
+	./parser 5.cmm
+	./parser 6.cmm
+	./parser 7.cmm
+	./parser 8.cmm
+	./parser 9.cmm
+	./parser 10.cmm
+	./parser 11.cmm
+	./parser 12.cmm
+	./parser 13.cmm
+	./parser 14.cmm
+	./parser 15.cmm
+	./parser 16.cmm
+	./parser 17.cmm
+	./parser 2_1.cmm
+	./parser 2_2.cmm
+	./parser 2_3.cmm
+	./parser 2_4.cmm
+	./parser 2_5.cmm
+	./parser 2_6.cmm
+
+

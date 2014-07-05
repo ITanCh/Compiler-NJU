@@ -1,0 +1,16 @@
+struct a{
+	int x;
+	float y;
+	int z[2][2];
+};
+int main()
+{
+	int j;
+	struct a i;
+	10 + j;
+	i.x=j;
+	i.y=j;
+	i.z+j;
+	i-j;
+	i+i;
+}

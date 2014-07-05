@@ -1,0 +1,16 @@
+struct b {
+
+};
+int func(struct b d)
+{
+	return i;
+}
+int main()
+{	
+	int func;
+	int x;
+	struct b e;
+	func(e);
+	func(x);
+}
+
